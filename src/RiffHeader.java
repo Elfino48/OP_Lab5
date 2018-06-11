@@ -1,6 +1,6 @@
 public class RiffHeader {
-    public byte[] chunkId;
-    public byte[] chunkSize;
-    public byte[] format;
+    public int[] chunkId;
+    public int[] chunkSize;
+    public int[] format;
 
 }
